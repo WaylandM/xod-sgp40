@@ -1,2 +1,344 @@
 {
+  "links": [
+    {
+      "id": "HJJO5IjVC",
+      "input": {
+        "nodeId": "Hk3PcLiV0",
+        "pinKey": "BJkFuSiN0"
+      },
+      "output": {
+        "nodeId": "H1YP5IjVA",
+        "pinKey": "BkfrdBsN0"
+      }
+    },
+    {
+      "id": "Bk2WoIiV0",
+      "input": {
+        "nodeId": "HyW_-sLoN0",
+        "pinKey": "SJ-1mZPTz"
+      },
+      "output": {
+        "nodeId": "BJeExiIiVA",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r1jMi8jVC",
+      "input": {
+        "nodeId": "rkffo8oVA",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1YP5IjVA",
+        "pinKey": "BkfrdBsN0"
+      }
+    },
+    {
+      "id": "BJazsLj40",
+      "input": {
+        "nodeId": "Hk3PcLiV0",
+        "pinKey": "rJXd_rs4C"
+      },
+      "output": {
+        "nodeId": "BkNej8s40",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SymXjUs40",
+      "input": {
+        "nodeId": "HyW_-sLoN0",
+        "pinKey": "B1P1nFwaM"
+      },
+      "output": {
+        "nodeId": "ryfNxjUs40",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1ZUNoLj4C",
+      "input": {
+        "nodeId": "HJx8Ej8o4A",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "B1UNiLjNA",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "HylBiUiVC",
+      "input": {
+        "nodeId": "B1UNiLjNA",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "Hk3PcLiV0",
+        "pinKey": "r16xKBsNC"
+      }
+    },
+    {
+      "id": "SJ4PoIs40",
+      "input": {
+        "nodeId": "r1yIiUjEA",
+        "pinKey": "HkKJGUo40"
+      },
+      "output": {
+        "nodeId": "S1ldboUo4R",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1wwi8sVC",
+      "input": {
+        "nodeId": "rkwIiIoVC",
+        "pinKey": "rkbccBsER"
+      },
+      "output": {
+        "nodeId": "SkOboUsE0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1KDsUi4R",
+      "input": {
+        "nodeId": "rkwIiIoVC",
+        "pinKey": "rk_CaSjEC"
+      },
+      "output": {
+        "nodeId": "HyW_-sLoN0",
+        "pinKey": "OkPg7GDaW"
+      }
+    },
+    {
+      "id": "SypvsUs4A",
+      "input": {
+        "nodeId": "r1yIiUjEA",
+        "pinKey": "ByrFJfIoV0"
+      },
+      "output": {
+        "nodeId": "rkwIiIoVC",
+        "pinKey": "r1_6cSiNC"
+      }
+    },
+    {
+      "id": "HJaKiIiNC",
+      "input": {
+        "nodeId": "ryeDYiLj40",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1yIiUjEA",
+        "pinKey": "r1MKJfUsVA"
+      }
+    },
+    {
+      "id": "Bye9sLoEC",
+      "input": {
+        "nodeId": "rJDtjUoER",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rkwIiIoVC",
+        "pinKey": "rkjn5BsEA"
+      }
+    },
+    {
+      "id": "SJ55j8sNC",
+      "input": {
+        "nodeId": "Hk3PcLiV0",
+        "pinKey": "B1Op_rj4R"
+      },
+      "output": {
+        "nodeId": "BJbExj8sN0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJqan8jN0",
+      "input": {
+        "nodeId": "HJwa2IsNC",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1yIiUjEA",
+        "pinKey": "HJWYJGUiVR"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "H1YP5IjVA",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/sgp40-device"
+    },
+    {
+      "id": "Hk3PcLiV0",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "@/init"
+    },
+    {
+      "description": "I²C bus",
+      "id": "BkNej8s40",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "description": "Update. Triggers measurement.",
+      "id": "BJeExiIiVA",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Initialize sensor.",
+      "id": "BJbExj8sN0",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ryfNxjUs40",
+      "label": "init",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SkOboUsE0",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "S1ldboUo4R",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "HyW_-sLoN0",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/core/gate"
+    },
+    {
+      "id": "rkffo8oVA",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "B1UNiLjNA",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "id": "HJx8Ej8o4A",
+      "label": "init",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "r1yIiUjEA",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 2
+      },
+      "type": "@/measure-voc-index"
+    },
+    {
+      "id": "rkwIiIoVC",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "@/measure-raw"
+    },
+    {
+      "description": "The current raw gas measurement",
+      "id": "rJDtjUoER",
+      "label": "Raw",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on measurement.",
+      "id": "ryeDYiLj40",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "The volatile organic compound (VOC) index.",
+      "id": "HJwa2IsNC",
+      "label": "VOC",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
 }

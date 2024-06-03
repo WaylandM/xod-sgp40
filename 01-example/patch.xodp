@@ -1,2 +1,128 @@
 {
+  "links": [
+    {
+      "id": "SkXwea8oEA",
+      "input": {
+        "nodeId": "HyfDeaLiVC",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1-Pla8jVA",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "S1pl6UjE0",
+      "input": {
+        "nodeId": "rywlT8sER",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Byyn3Lo4A",
+        "pinKey": "rJDtjUoER"
+      }
+    },
+    {
+      "id": "S10gaLoVC",
+      "input": {
+        "nodeId": "H1lDepLi40",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Byyn3Lo4A",
+        "pinKey": "HJwa2IsNC"
+      }
+    },
+    {
+      "id": "ryeZTIiEC",
+      "input": {
+        "nodeId": "S1-Pla8jVA",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "Byyn3Lo4A",
+        "pinKey": "ryeDYiLj40"
+      }
+    },
+    {
+      "id": "Syib6LiEC",
+      "input": {
+        "nodeId": "Byyn3Lo4A",
+        "pinKey": "BJeExiIiVA"
+      },
+      "output": {
+        "nodeId": "ryu-6Ls4C",
+        "pinKey": "HJU8CE2lW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Byyn3Lo4A",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/air-quality-sensor"
+    },
+    {
+      "id": "rywlT8sER",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1lDepLi40",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1-Pla8jVA",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "HyfDeaLiVC",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "2"
+      },
+      "id": "ryu-6Ls4C",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    }
+  ]
 }

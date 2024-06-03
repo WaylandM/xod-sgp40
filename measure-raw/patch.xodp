@@ -1,2 +1,85 @@
 {
+  "nodes": [
+    {
+      "description": "An SGP40 device.",
+      "id": "rkbccBsER",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/input-sgp40-device"
+    },
+    {
+      "id": "BJSs9SiN0",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "The current raw gas measurement",
+      "id": "rkjn5BsEA",
+      "label": "Raw",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on measurement.",
+      "id": "r1_6cSiNC",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "25"
+      },
+      "description": "Temperature (Celsius). Used in temperature compensation. Connect to a temperature sensor or specify a value a temperature sensor is not available.",
+      "id": "ryR-iroEA",
+      "label": "TempC",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "50"
+      },
+      "description": "Relative humidity (%). Used in humidity compensation. Connect to a relative humidity sensor or specify a value if a sensor is not available.",
+      "id": "S1kmoBsVA",
+      "label": "RH",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update.",
+      "id": "rk_CaSjEC",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
 }

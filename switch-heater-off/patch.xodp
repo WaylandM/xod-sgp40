@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "description": "An SGP40 device.",
+      "id": "HyFXkDj4R",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-sgp40-device"
+    },
+    {
+      "description": "Turn off heater to lower current consumption. Launching a measurement automatically wakes up the sensor again.",
+      "id": "HyxK7kvoE0",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse if heater successfully switched off.",
+      "id": "SkzYmkDs4A",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "HySK7kPoER",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

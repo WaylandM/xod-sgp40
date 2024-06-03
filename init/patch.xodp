@@ -1,2 +1,58 @@
 {
+  "description": "Initialize SGP40 device.",
+  "nodes": [
+    {
+      "description": "I²C bus",
+      "id": "rJXd_rs4C",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "description": "An SGP40 device.",
+      "id": "BJkFuSiN0",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/input-sgp40-device"
+    },
+    {
+      "id": "rkD2OHoER",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Initialize.",
+      "id": "B1Op_rj4R",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on initialization.",
+      "id": "r16xKBsNC",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

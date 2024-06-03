@@ -14,7 +14,7 @@ node {
     }
 
     // Keep Adafruit_SGP30 object in state
-    Adafruit_SGP30 sensor = Adafruit_SGP40();
+    Adafruit_SGP40 sensor = Adafruit_SGP40();
 
 
     void evaluate(Context ctx) {

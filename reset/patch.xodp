@@ -1,0 +1,48 @@
+{
+  "description": "Perform a soft reset using the \"General Call\" mode. N.B. this is not sensor specific and all devices that support the General Call mode on the on the same I²C bus will perform this.",
+  "nodes": [
+    {
+      "description": "An SGP40 device.",
+      "id": "rJjXlPi4R",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sgp40-device"
+    },
+    {
+      "description": "Turn off heater to lower current consumption. Launching a measurement automatically wakes up the sensor again.",
+      "id": "BJejXxwi4A",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on successful reset.",
+      "id": "rk-j7xviNA",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "ByGimePsNR",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

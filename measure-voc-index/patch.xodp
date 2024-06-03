@@ -1,2 +1,85 @@
 {
+  "nodes": [
+    {
+      "description": "An SGP40 device.",
+      "id": "HkKJGUo40",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sgp40-device"
+    },
+    {
+      "id": "S1ltJGUoE0",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "The volatile organic compound (VOC) index.",
+      "id": "HJWYJGUiVR",
+      "label": "VOC",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on measurement.",
+      "id": "r1MKJfUsVA",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "25"
+      },
+      "description": "Temperature (Celsius). Used in temperature compensation. Connect to a temperature sensor or specify a value a temperature sensor is not available.",
+      "id": "H1Qt1GUiNA",
+      "label": "TempC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "50"
+      },
+      "description": "Relative humidity (%). Used in humidity compensation. Connect to a relative humidity sensor or specify a value if a sensor is not available.",
+      "id": "H14FyMUsNA",
+      "label": "RH",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update.",
+      "id": "ByrFJfIoV0",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
 }
