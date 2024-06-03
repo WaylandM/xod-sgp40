@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "SyA1t7sNR",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
