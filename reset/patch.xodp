@@ -13,7 +13,6 @@
       "type": "@/input-sgp40-device"
     },
     {
-      "description": "Turn off heater to lower current consumption. Launching a measurement automatically wakes up the sensor again.",
       "id": "BJejXxwi4A",
       "position": {
         "units": "slots",

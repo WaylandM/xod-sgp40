@@ -1,4 +1,5 @@
 {
+  "description": "Measure volatile organic compound index.",
   "nodes": [
     {
       "description": "An SGP40 device.",

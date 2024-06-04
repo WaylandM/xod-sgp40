@@ -2,5 +2,5 @@
   "description": "SGP air quality sensor. Wraps https://github.com/adafruit/Adafruit_SGP40",
   "license": "BSD",
   "name": "sgp40-air-quality-sensor",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }

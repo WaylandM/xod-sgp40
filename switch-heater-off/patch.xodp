@@ -1,4 +1,5 @@
 {
+  "description": "Turn off heater to lower curent consumption. Next measurement will automatically reactivate the heater.",
   "nodes": [
     {
       "description": "An SGP40 device.",

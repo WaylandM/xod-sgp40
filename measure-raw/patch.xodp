@@ -1,4 +1,5 @@
 {
+  "description": "Make a raw gas measurement.",
   "nodes": [
     {
       "description": "An SGP40 device.",

@@ -33,6 +33,9 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
       "description": "Initialize.",
       "id": "B1Op_rj4R",
       "label": "INIT",
