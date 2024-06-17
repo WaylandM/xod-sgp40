@@ -165,6 +165,50 @@
         "nodeId": "r1yIiUjEA",
         "pinKey": "HJWYJGUiVR"
       }
+    },
+    {
+      "id": "Sytfkc6HC",
+      "input": {
+        "nodeId": "rkwIiIoVC",
+        "pinKey": "ryR-iroEA"
+      },
+      "output": {
+        "nodeId": "HyGyycTrR",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BkoGk9ar0",
+      "input": {
+        "nodeId": "r1yIiUjEA",
+        "pinKey": "H1Qt1GUiNA"
+      },
+      "output": {
+        "nodeId": "HyGyycTrR",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sy64k9pSR",
+      "input": {
+        "nodeId": "rkwIiIoVC",
+        "pinKey": "S1kmoBsVA"
+      },
+      "output": {
+        "nodeId": "BJIkkc6HC",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJyrkqaHR",
+      "input": {
+        "nodeId": "r1yIiUjEA",
+        "pinKey": "H14FyMUsNA"
+      },
+      "output": {
+        "nodeId": "BJIkkc6HC",
+        "pinKey": "__out__"
+      }
     }
   ],
   "nodes": [
@@ -203,8 +247,8 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 8,
-        "y": 0
+        "x": 10,
+        "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"
     },
@@ -227,8 +271,8 @@
       "label": "init",
       "position": {
         "units": "slots",
-        "x": 9,
-        "y": 0
+        "x": 11,
+        "y": -1
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -256,8 +300,8 @@
       "id": "HyW_-sLoN0",
       "position": {
         "units": "slots",
-        "x": 8,
-        "y": 1
+        "x": 10,
+        "y": 0
       },
       "type": "xod/core/gate"
     },
@@ -340,6 +384,34 @@
         "y": 3
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "25"
+      },
+      "description": "Temperature (Celsius). Used in temperature compensation. Connect to a temperature sensor or specify a value a temperature sensor is not available.",
+      "id": "HyGyycTrR",
+      "label": "TempC",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "50"
+      },
+      "description": "Relative humidity (%). Used in humidity compensation. Connect to a relative humidity sensor or specify a value if a sensor is not available.",
+      "id": "BJIkkc6HC",
+      "label": "RH",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
     }
   ]
 }

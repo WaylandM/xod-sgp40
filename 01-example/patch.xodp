@@ -120,7 +120,7 @@
       "id": "ryu-6Ls4C",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 6,
         "y": 0
       },
       "type": "xod/core/clock"
